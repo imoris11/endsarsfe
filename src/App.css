@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+  background-image: url('./endsars.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  border-radius: 1em;
+  width: 50vw;
+  background-color: white;
+  min-height: 50vh;
+  max-height: auto;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border-width: 0px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  border-radius: 1em;
+  width: 70vw;
+  min-height: 50vh;
+  max-height: auto;
+}
+}
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #0092dd;
+  color: white;
+  border-radius: 1em;
+}
+.second-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 1em;
+}
+
+.post_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  border-radius: 1em;
+  width: 40vw;
+  background-color: white;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px){
+  .post_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    border-radius: 1em;
+    width: 70vw;
+    background-color: white;
+    margin-top: 10px;
+  }
+}
+.post-header {
+  display: flex;
+  border-bottom: #0092dd;
+  color: red;
+}
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #0d1c3d;
+}
+.profile-names {
+  color: #0d1c3d;
+  line-height: 0%;
+  margin-left: 10px;
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+.username {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left:-50px; /* Really? Perhaps can be better */
+}
+.post-body{
+  color:#282c34;
+  font-size: 16px;
+  text-align: left;
+}
+.page{
+  color: #282c34;
+  font-size: 12px;
+}
+.button_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.header {
+  top:0;
+  position: absolute;
+  text-align: center;
+  background-color: #0092dd;
+}
